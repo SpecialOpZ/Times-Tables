@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1547EFC0372C061901A1DD1F447DE989A7509E69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A28691176D578FA5993E707D15CAAE15816DB084" : 9223372036854775807,
+    "1547EFC0372C061901A1DD1F447DE989A7509E69" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5DAB488C-6523-48D3-8CE0-658D3A978AA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A28691176D578FA5993E707D15CAAE15816DB084" : "",
+    "1547EFC0372C061901A1DD1F447DE989A7509E69" : "Times_Tables%203.0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Times_Tables",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Times_Tables.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SpecialOpZ\/Times-Tables.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1547EFC0372C061901A1DD1F447DE989A7509E69"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SpecialOpZ\/Training-Files.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A28691176D578FA5993E707D15CAAE15816DB084"
+    }
+  ]
+}

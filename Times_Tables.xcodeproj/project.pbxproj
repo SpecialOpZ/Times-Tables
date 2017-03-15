@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9200CBDA1B75F96100489C1D /* gjRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9200CBD91B75F96100489C1D /* gjRibbon.png */; };
 		9200CBDC1B75FA3000489C1D /* wrongAnswer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9200CBDB1B75FA3000489C1D /* wrongAnswer.png */; };
 		9200CBE01B76285000489C1D /* flashCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200CBDF1B76285000489C1D /* flashCardVC.swift */; };
 		923076711B7644EF00CACF20 /* chalkBoard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923076701B7644EF00CACF20 /* chalkBoard.jpg */; };
+		92AE60771E78D7F800910765 /* gjRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92AE60761E78D7F800910765 /* gjRibbon.png */; };
 		92E8DA101B7486EB00BCA7B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8DA0F1B7486EB00BCA7B5 /* AppDelegate.swift */; };
 		92E8DA121B7486EB00BCA7B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8DA111B7486EB00BCA7B5 /* ViewController.swift */; };
 		92E8DA151B7486EB00BCA7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E8DA131B7486EB00BCA7B5 /* Main.storyboard */; };
@@ -23,10 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9200CBD91B75F96100489C1D /* gjRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gjRibbon.png; sourceTree = "<group>"; };
 		9200CBDB1B75FA3000489C1D /* wrongAnswer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrongAnswer.png; sourceTree = "<group>"; };
 		9200CBDF1B76285000489C1D /* flashCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flashCardVC.swift; sourceTree = "<group>"; };
 		923076701B7644EF00CACF20 /* chalkBoard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chalkBoard.jpg; sourceTree = "<group>"; };
+		92AE60761E78D7F800910765 /* gjRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gjRibbon.png; sourceTree = "<group>"; };
 		92E8DA0C1B7486EB00BCA7B5 /* Times_Tables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Times_Tables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E8DA0F1B7486EB00BCA7B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E8DA111B7486EB00BCA7B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 				92E8DA0F1B7486EB00BCA7B5 /* AppDelegate.swift */,
 				92E8DA211B748D1200BCA7B5 /* correct.png */,
 				92E8DA231B748D1800BCA7B5 /* wrong.png */,
+				92AE60761E78D7F800910765 /* gjRibbon.png */,
 				92E8DA251B748D2F00BCA7B5 /* background_1.jpg */,
-				9200CBD91B75F96100489C1D /* gjRibbon.png */,
 				9200CBDB1B75FA3000489C1D /* wrongAnswer.png */,
 				923076701B7644EF00CACF20 /* chalkBoard.jpg */,
 			);
@@ -114,7 +114,7 @@
 		92E8DA041B7486EB00BCA7B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = aimappdesign;
 				TargetAttributes = {
 					92E8DA0B1B7486EB00BCA7B5 = {
@@ -152,9 +152,9 @@
 				92E8DA221B748D1200BCA7B5 /* correct.png in Resources */,
 				92E8DA1A1B7486EB00BCA7B5 /* LaunchScreen.storyboard in Resources */,
 				92E8DA261B748D2F00BCA7B5 /* background_1.jpg in Resources */,
+				92AE60771E78D7F800910765 /* gjRibbon.png in Resources */,
 				923076711B7644EF00CACF20 /* chalkBoard.jpg in Resources */,
 				92E8DA171B7486EB00BCA7B5 /* Assets.xcassets in Resources */,
-				9200CBDA1B75F96100489C1D /* gjRibbon.png in Resources */,
 				92E8DA151B7486EB00BCA7B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,8 +208,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -252,8 +254,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -272,6 +276,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

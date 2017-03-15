@@ -43,7 +43,6 @@ class flashCardVC: UIViewController {
     
     func determineIfAnswerIsCorrect() {
         enteredAnswerInt = Int(enterAnswerTextField.text!)!
-        print(enteredAnswerInt)
         print(correctAnswer)
         enterAnswerTextField.resignFirstResponder()
         
